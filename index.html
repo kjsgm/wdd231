@@ -1,51 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="description" content="Página inicial do curso WDD 231 de Katherine Jannet Sotelo Gordillo Montanhaur.">
     <meta name="author" content="Katherine Jannet Sotelo Gordillo Montanhaur">
-
     <title>Página Inicial | WDD 231</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
 
-    estilos/telas-pequenas.css
-    estilos/maior.css
+    <link rel="stylesheet" href="estilos/telas-pequenas.css">
+    <link rel="stylesheet" href="estilos/maior.css">
 
-    scripts/navegacao.jsscript>
-    scripts/data.jsscript>
-    scripts/curso.jsscript>
+    <script src="scripts/navegacao.js" defer></script>
+    <script src="scripts/data.js" defer></script>
+    <script src="scripts/curso.js" defer></script>
 </head>
-
 <body>
     <header>
         <div class="identidade">
-            imagens/logotipo.svg
+            <img src="imagens/logotipo.svg" alt="Logotipo KM" width="60" height="60">
             <span>Katherine Montanhaur</span>
         </div>
 
-        <button id="botao-menu" class="botao-menu" type="button" aria-label="Abrir menu de navegação"
-            aria-expanded="false" aria-controls="menu-navegacao">
-            &#9776;
-        </button>
+        <button id="botao-menu" class="botao-menu" type="button"
+                aria-label="Abrir menu de navegação" aria-expanded="false"
+                aria-controls="menu-navegacao">&#9776;</button>
 
         <nav id="menu-navegacao" aria-label="Navegação principal">
-            <a href="index.html" class="ativo" aria-current="page">
-                Página Inicial
-            </a>
-
-            <a href="#">
-                Projeto da Câmara
-            </a>
-
-            <a href="#">
-                Projeto Final
-            </a>
+            <a href="index.html" class="ativo" aria-current="page">Página Inicial</a>
+            <a href="#">Projeto da Câmara</a>
+            <a href="#">Projeto Final</a>
         </nav>
     </header>
 
@@ -55,63 +42,38 @@
         <div class="conteudo-principal">
             <section class="sobre">
                 <h2>Sobre mim</h2>
-
                 <p>
-                    Meu nome é Katherine. Moro no Brasil e estudo
-                    desenvolvimento de software. Nesta página, apresento os
-                    cursos do certificado de Programação de Computadores e Web.
+                    Meu nome é Katherine. Moro no Brasil e estudo desenvolvimento de software.
+                    Nesta página, apresento os cursos do certificado de Programação de
+                    Computadores e Web.
                 </p>
             </section>
 
             <section class="foto">
                 <h2>Foto do estudante</h2>
-
-                imagens/perfil.webp
+                <img src="imagens/perfil.webp" alt="Foto de Katherine" width="350" height="350">
             </section>
         </div>
 
         <section class="certificado">
             <h2>Cursos do certificado</h2>
-
             <div class="filtros" aria-label="Filtros dos cursos">
-                <button id="todos" type="button">
-                    Todos
-                </button>
-
-                <button id="wdd" type="button">
-                    WDD
-                </button>
-
-                <button id="cse" type="button">
-                    CSE
-                </button>
+                <button id="todos" type="button">Todos</button>
+                <button id="wdd" type="button">WDD</button>
+                <button id="cse" type="button">CSE</button>
             </div>
-
             <p id="total-creditos" aria-live="polite"></p>
-
             <div id="lista-cursos"></div>
         </section>
     </main>
 
     <footer>
         <div class="redes-sociais">
-            <a href="https://github.com/kjsgm" aria-label="Perfil de Katherine no GitHub">
-                GitHub
-            </a>
-
-            https://www.linkedin.com/in/katherine-montanhaur-551292111
-            LinkedIn
-            </a>
+            <a href="https://github.com/kjsgm" aria-label="Perfil de Katherine no GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/katherine-montanhaur-551292111" aria-label="Perfil de Katherine no LinkedIn">LinkedIn</a>
         </div>
-
-        <p>
-            &copy;
-            <span id="ano-atual"></span>
-            Katherine Jannet Sotelo Gordillo Montanhaur | Brasil
-        </p>
-
+        <p>&copy; <span id="ano-atual"></span> Katherine Jannet Sotelo Gordillo Montanhaur | Brasil</p>
         <p id="ultimaModificacao"></p>
     </footer>
 </body>
-
 </html>
