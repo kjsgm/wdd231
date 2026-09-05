@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 100 100"
+     role="img"
+     aria-labelledby="titulo descricao">
+  <title id="titulo">Logotipo KM</title>
+  <desc id="descricao">Logotipo azul com as letras K e M</desc>
+
+  <rect width="100" height="100" rx="18" fill="#12355b"/>
+
+  <text
+    x="50"
+    y="63"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="43"
+    font-weight="700"
+    fill="#ffffff">
+    KM
+  </text>
+</svg>

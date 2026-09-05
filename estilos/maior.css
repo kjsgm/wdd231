@@ -1,0 +1,76 @@
+@media screen and (min-width: 700px) {
+    header {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+    }
+
+    .identidade {
+        padding: 1rem 2rem;
+    }
+
+    .botao-menu {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-self: stretch;
+        background-color: #0b2545;
+    }
+
+    nav a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 1.5rem;
+    }
+
+    nav a.ativo {
+        border-left: 0;
+        border-bottom: 5px solid #f4a261;
+    }
+
+    main {
+        padding-top: 1.5rem;
+    }
+
+    .conteudo-principal {
+        grid-template-columns: 2fr 1fr;
+        align-items: stretch;
+    }
+
+    .sobre,
+    .foto {
+        height: 100%;
+    }
+
+    .foto img {
+        height: 280px;
+        object-fit: cover;
+    }
+
+    .filtros {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #lista-cursos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .identidade span {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .conteudo-principal {
+        grid-template-columns: 3fr 1fr;
+    }
+}
