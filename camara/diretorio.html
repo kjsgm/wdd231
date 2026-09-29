@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Diretório | Câmara de Comércio de San Miguel</title>
+
+    <meta name="description"
+        content="Diretório de empresas e membros da Câmara de Comércio de San Miguel, El Salvador.">
+
+    <meta name="author" content="Katherine Montanhaur">
+
+    <!-- Metadados para redes sociais -->
+    <meta property="og:title" content="Diretório | Câmara de Comércio de San Miguel">
+    <meta property="og:description" content="Conheça as empresas membros da Câmara de Comércio de San Miguel.">
+    <meta property="og:image" content="https://kjsgm.github.io/wdd231/camara/imagens/logo.png">
+    <meta property="og:url" content="https://kjsgm.github.io/wdd231/camara/diretorio.html">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos/normalizar.css">
+    <link rel="stylesheet" href="estilos/telas-pequenas.css">
+    <link rel="stylesheet" href="estilos/telas-grandes.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="cabecalho">
+
+            <div class="identidade">
+                <img src="imagens/logo.webp" alt="Logo da Câmara de Comércio de San Miguel">
+
+                <div>
+                    <h1>Câmara de Comércio</h1>
+                    <p>San Miguel, El Salvador</p>
+                </div>
+            </div>
+
+            <button id="menu" aria-label="Abrir menu">
+                ☰
+            </button>
+
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Início</a>
+                </li>
+
+                <li>
+                    <a href="diretorio.html" class="ativo">Diretório</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Diretório de Membros</h2>
+
+        <div class="botoes-visualizacao">
+            <button id="grade">Grade</button>
+            <button id="lista">Lista</button>
+        </div>
+
+        <section id="membros" class="grade">
+            <!-- Os membros serão inseridos aqui pelo JavaScript -->
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div>
+            <h3>Câmara de Comércio de San Miguel</h3>
+
+            <p>San Miguel, El Salvador</p>
+
+            <p>contato@camarasanmiguel.com</p>
+
+            <p>+503 2665-0000</p>
+        </div>
+
+        <div>
+            <p>Katherine Montanhaur | WDD 231</p>
+
+            <p>
+                &copy;
+                <span id="ano"></span>
+                Câmara de Comércio de San Miguel
+            </p>
+
+            <p>
+                Última modificação:
+                <span id="modificado"></span>
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="scripts/membros.js"></script>
+
+</body>
+
+</html>

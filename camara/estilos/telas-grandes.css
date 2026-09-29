@@ -1,0 +1,83 @@
+/* =================================
+   TELAS GRANDES
+   Câmara de Comércio - WDD 231
+   Katherine Montanhaur
+================================= */
+
+@media screen and (min-width: 700px) {
+
+    /* ---------- CABEÇALHO ---------- */
+
+    .cabecalho {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1.5rem 2rem;
+    }
+
+    .identidade img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .identidade h1 {
+        font-size: 1.7rem;
+    }
+
+    .identidade p {
+        font-size: 1rem;
+    }
+
+    /* ---------- MENU ---------- */
+
+    #menu {
+        display: none;
+    }
+
+    nav ul {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav li {
+        flex: 0 1 180px;
+    }
+
+    nav a {
+        padding: 1rem;
+    }
+
+    /* ---------- CONTEÚDO ---------- */
+
+    main {
+        padding: 2.5rem 2rem;
+    }
+
+    main h2 {
+        font-size: 2rem;
+    }
+
+    /* ---------- GRADE ---------- */
+
+    .grade {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    /* ---------- RODAPÉ ---------- */
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+        text-align: left;
+    }
+
+    footer div {
+        margin-bottom: 0;
+    }
+}

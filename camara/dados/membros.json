@@ -1,0 +1,65 @@
+[
+    {
+        "nome": "Café El Volcán",
+        "endereco": "Avenida Roosevelt 120, San Miguel, El Salvador",
+        "telefone": "+503 2665-1200",
+        "url": "https://www.cafeelvolcan.com",
+        "imagem": "cafe-el-volcan.webp",
+        "nivel": 3,
+        "descricao": "Empresa local dedicada à produção e comercialização de café salvadorenho."
+    },
+    {
+        "nome": "Hotel Trópico",
+        "endereco": "Calle Principal 45, San Miguel, El Salvador",
+        "telefone": "+503 2665-2300",
+        "url": "https://www.hoteltropico.com",
+        "imagem": "hotel-tropico.webp",
+        "nivel": 2,
+        "descricao": "Hotel que oferece hospedagem e serviços para visitantes e empresas."
+    },
+    {
+        "nome": "Distribuidora Oriental",
+        "endereco": "Avenida Las Flores 78, San Miguel, El Salvador",
+        "telefone": "+503 2665-3400",
+        "url": "https://www.distribuidoraoriental.com",
+        "imagem": "distribuidora-oriental.webp",
+        "nivel": 1,
+        "descricao": "Distribuidora de produtos para pequenos e médios negócios da região."
+    },
+    {
+        "nome": "Constructora San Miguel",
+        "endereco": "Calle La Paz 156, San Miguel, El Salvador",
+        "telefone": "+503 2665-4500",
+        "url": "https://www.constructora-sm.com",
+        "imagem": "constructora-san-miguel.webp",
+        "nivel": 3,
+        "descricao": "Empresa especializada em projetos de construção e desenvolvimento imobiliário."
+    },
+    {
+        "nome": "Panadería La Esperanza",
+        "endereco": "Avenida Norte 34, San Miguel, El Salvador",
+        "telefone": "+503 2665-5600",
+        "url": "https://www.panaderialaesperanza.com",
+        "imagem": "panaderia-la-esperanza.webp",
+        "nivel": 1,
+        "descricao": "Padaria local com produtos artesanais e atendimento à comunidade."
+    },
+    {
+        "nome": "Tecnología Oriental",
+        "endereco": "Boulevard Universitario 90, San Miguel, El Salvador",
+        "telefone": "+503 2665-6700",
+        "url": "https://www.tecnologiaoriental.com",
+        "imagem": "tecnologia-oriental.webp",
+        "nivel": 2,
+        "descricao": "Empresa de tecnologia que oferece equipamentos e soluções digitais para negócios."
+    },
+    {
+        "nome": "Transportes del Oriente",
+        "endereco": "Carretera Panamericana Km 142, San Miguel, El Salvador",
+        "telefone": "+503 2665-7800",
+        "url": "https://www.transportesoriente.com",
+        "imagem": "transportes-oriente.webp",
+        "nivel": 2,
+        "descricao": "Empresa de transporte e logística para empresas da região oriental."
+    }
+]
