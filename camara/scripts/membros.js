@@ -66,13 +66,5 @@ document.querySelector("#ano").textContent = new Date().getFullYear();
 // Data da última modificação
 document.querySelector("#modificado").textContent = document.lastModified;
 
-// Menu de navegação
-const botaoMenu = document.querySelector("#menu");
-const navegacao = document.querySelector("nav ul");
-
-botaoMenu.addEventListener("click", () => {
-    navegacao.classList.toggle("aberto");
-});
-
 // Carrega os membros
 obterMembros();
