@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Início | Câmara de Comércio de San Miguel</title>
+
+    <meta name="description"
+        content="Página inicial da Câmara de Comércio de San Miguel, El Salvador, com eventos, clima e empresas em destaque.">
+
+    <meta name="author" content="Katherine Montanhaur">
+
+    <!-- Metadados para redes sociais -->
+    <meta property="og:title" content="Início | Câmara de Comércio de San Miguel">
+    <meta property="og:description"
+        content="Conheça a Câmara de Comércio de San Miguel, seus eventos, empresas em destaque e informações locais.">
+    <meta property="og:image" content="https://kjsgm.github.io/wdd231/camara/imagens/logo.webp">
+    <meta property="og:url" content="https://kjsgm.github.io/wdd231/camara/index.html">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos/normalizar.css">
+    <link rel="stylesheet" href="estilos/telas-pequenas.css">
+    <link rel="stylesheet" href="estilos/telas-grandes.css">
+    <link rel="stylesheet" href="estilos/inicio.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="cabecalho">
+
+            <div class="identidade">
+                <img src="imagens/logo.webp" alt="Logo da Câmara de Comércio de San Miguel">
+
+                <div>
+                    <p>Câmara de Comércio</p>
+                    <p>San Miguel, El Salvador</p>
+                </div>
+            </div>
+
+            <button id="menu" aria-label="Abrir menu">
+                ☰
+            </button>
+
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" class="ativo">Início</a>
+                </li>
+
+                <li>
+                    <a href="diretorio.html">Diretório</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="imagens/hero.jpg" alt="Vista da cidade de San Miguel, El Salvador">
+            <div class="hero-conteudo">
+                <h1>Fortalecendo os negócios de San Miguel</h1>
+                <a href="#" class="botao-cta">Associe-se à Câmara</a>
+            </div>
+        </section>
+        <section class="eventos">
+            <h2>Próximos Eventos</h2>
+            <article>
+                <h3>Conexões Empresariais de San Miguel</h3>
+                <p>Encontro para empresários e empreendedores ampliarem sua rede de contatos, compartilharem
+                    experiências e
+                    criarem novas oportunidades de negócios.</p>
+                <p><strong>Data:</strong> 15 de outubro de 2026</p>
+            </article>
+
+            <article>
+                <h3>Capacitação para Pequenos Negócios</h3>
+                <p>Workshop com orientações práticas sobre gestão, inovação e estratégias para fortalecer pequenos
+                    negócios da
+                    região.</p>
+                <p><strong>Data:</strong> 22 de outubro de 2026</p>
+            </article>
+
+            <article>
+                <h3>Encontro de Mulheres Empreendedoras</h3>
+                <p>Um espaço para compartilhar experiências, desenvolver novas conexões e incentivar o crescimento das
+                    mulheres
+                    empresárias de San Miguel.</p>
+                <p><strong>Data:</strong> 5 de novembro de 2026</p>
+            </article>
+        </section>
+        <section class="clima">
+            <h2>Clima em San Miguel</h2>
+
+            <div class="clima-atual">
+                <h3>Condições atuais</h3>
+                <p>Temperatura: <span id="temperatura">--</span> °C</p>
+                <p>Condição: <span id="descricao">--</span></p>
+            </div>
+
+            <div class="previsao">
+                <h3>Previsão para os próximos 3 dias</h3>
+                <div id="previsao-dias"></div>
+            </div>
+        </section>
+        <section class="empresas-destaque">
+            <h2>Empresas em Destaque</h2>
+            <div id="membros-destaque"></div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div>
+            <p>Câmara de Comércio de San Miguel</p>
+
+            <p>San Miguel, El Salvador</p>
+
+            <p>contato@camarasanmiguel.com</p>
+
+            <p>+503 2665-0000</p>
+        </div>
+
+        <div>
+            <p>Katherine Montanhaur | WDD 231</p>
+
+            <p>
+                &copy;
+                <span id="ano"></span>
+                Câmara de Comércio de San Miguel
+            </p>
+
+            <p>
+                Última modificação:
+                <span id="modificado"></span>
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="scripts/clima.js"></script>
+    <script src="scripts/destaques.js"></script>
+
+</body>
+
+</html>

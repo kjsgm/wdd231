@@ -1,0 +1,58 @@
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-conteudo {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.botao-cta {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #1F4E79;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Conteúdo sobre a imagem principal */
+.hero-conteudo {
+    padding: 16px;
+    max-width: 500px;
+}
+
+.hero-conteudo h1 {
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+/* Empresas em destaque */
+.empresas-destaque {
+    padding: 20px;
+}
+
+# membros-destaque {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+#membros-destaque .membro {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#membros-destaque img {
+    max-width: 100%;
+    height: auto;
+}
