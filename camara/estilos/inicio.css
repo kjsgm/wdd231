@@ -8,10 +8,18 @@
     display: block;
 }
 
+/* Conteúdo sobre a imagem principal */
 .hero-conteudo {
     position: absolute;
     bottom: 20px;
     left: 20px;
+    padding: 16px;
+    max-width: 500px;
+}
+
+.hero-conteudo h1 {
+    color: white;
+    text-shadow: 1px 1px 4px black;
 }
 
 .botao-cta {
@@ -23,23 +31,12 @@
     font-weight: 700;
 }
 
-/* Conteúdo sobre a imagem principal */
-.hero-conteudo {
-    padding: 16px;
-    max-width: 500px;
-}
-
-.hero-conteudo h1 {
-    color: white;
-    text-shadow: 1px 1px 4px black;
-}
-
 /* Empresas em destaque */
 .empresas-destaque {
     padding: 20px;
 }
 
-# membros-destaque {
+#membros-destaque {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
