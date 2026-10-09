@@ -1,12 +1,12 @@
 /* Estilos exclusivos da página de associação */
 
-main {
+main:has(.conteudo-associacao) {
     max-width: 1100px;
     margin: 0 auto;
     padding: 1rem;
 }
 
-main h1 {
+main:has(.conteudo-associacao) h1 {
     margin-bottom: 1.5rem;
 }
 
@@ -109,12 +109,11 @@ dialog button {
         transform: translateY(15px);
     }
 
-    ``` to {
+    to {
         opacity: 1;
         transform: translateY(0);
     }
 
-    ```
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -131,9 +130,8 @@ dialog button {
         align-items: start;
     }
 
-    ``` .niveis-associacao {
+    .niveis-associacao {
         margin-top: 0;
     }
 
-    ```
 }
