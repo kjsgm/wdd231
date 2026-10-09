@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Associe-se | Câmara de Comércio de San Miguel</title>
+
+    <meta name="description" content="Associe sua empresa à Câmara de Comércio de San Miguel, El Salvador.">
+
+    <meta name="author" content="Katherine Montanhaur">
+
+    <meta property="og:title" content="Associe-se | Câmara de Comércio de San Miguel">
+    <meta property="og:description" content="Conheça os níveis de associação da Câmara de Comércio de San Miguel.">
+    <meta property="og:image" content="https://kjsgm.github.io/wdd231/camara/imagens/logo.webp">
+    <meta property="og:url" content="https://kjsgm.github.io/wdd231/camara/associacao.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos/normalizar.css">
+    <link rel="stylesheet" href="estilos/telas-pequenas.css">
+    <link rel="stylesheet" href="estilos/telas-grandes.css">
+    <link rel="stylesheet" href="estilos/associacao.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="cabecalho">
+
+            <div class="identidade">
+                <img src="imagens/logo.webp" alt="Logo da Câmara de Comércio de San Miguel">
+
+                <div>
+                    <p>Câmara de Comércio</p>
+                    <p>San Miguel, El Salvador</p>
+                </div>
+            </div>
+
+            <button id="menu" aria-label="Abrir menu">
+                ☰
+            </button>
+
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="diretorio.html">Diretório</a></li>
+                <li><a href="associacao.html" class="ativo" aria-current="page">Associe-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Associe-se à Câmara</h1>
+
+        <div class="conteudo-associacao">
+
+            <form class="formulario-associacao" method="get" action="agradecimento.html">
+
+                <label for="nome">
+                    Nome
+                    <input type="text" id="nome" name="nome" title="Nome" autocomplete="given-name" required>
+                </label>
+
+                <label for="sobrenome">
+                    Sobrenome
+                    <input type="text" id="sobrenome" name="sobrenome" title="Sobrenome" autocomplete="family-name"
+                        required>
+                </label>
+
+                <label for="cargo">
+                    Cargo na organização
+                    <input type="text" id="cargo" name="cargo" title="Cargo na organização"
+                        autocomplete="cargo-na-organizacao" pattern="[A-Za-z ]{7,}" required>
+                </label>
+
+                <label for="email">
+                    E-mail
+                    <input type="email" id="email" name="email" title="Endereço de e-mail" autocomplete="email"
+                        placeholder="nome@exemplo.com" required>
+                </label>
+
+                <label for="telefone">
+                    Número de celular
+                    <input type="tel" id="telefone" name="telefone" title="Número de celular" autocomplete="tel"
+                        required>
+                </label>
+
+                <label for="organizacao">
+                    Nome da empresa ou organização
+                    <input type="text" id="organizacao" name="organizacao" title="Nome da empresa ou organização"
+                        autocomplete="organization" required>
+                </label>
+
+                <label for="nivel">
+                    Nível de associação
+                    <select id="nivel" name="nivel" title="Nível de associação" required>
+                        <option value="">Selecione um nível</option>
+                        <option value="np">Associação NP - Sem fins lucrativos</option>
+                        <option value="bronze">Associação Bronze</option>
+                        <option value="silver">Associação Prata</option>
+                        <option value="gold">Associação Ouro</option>
+                    </select>
+                </label>
+
+                <label for="descricao">
+                    Descrição da atividade ou organização
+                    <textarea id="descricao" name="descricao" title="Descrição da atividade ou organização"
+                        rows="4"></textarea>
+                </label>
+
+                <input type="hidden" id="dataHora" name="dataHora">
+
+                <input type="submit" value="Enviar pedido de associação">
+
+            </form>
+
+            <section class="niveis-associacao" aria-label="Benefícios dos níveis de associação">
+
+                <article class="cartao-nivel">
+                    <h2>Associação NP</h2>
+                    <p>Para organizações sem fins lucrativos.</p>
+                    <a href="#modal-np" class="abrir-modal" data-modal="modal-np">Ver benefícios</a>
+                </article>
+
+                <article class="cartao-nivel">
+                    <h2>Associação Bronze</h2>
+                    <p>Uma opção para começar a participar.</p>
+                    <a href="#modal-bronze" class="abrir-modal" data-modal="modal-bronze">Ver benefícios</a>
+                </article>
+
+                <article class="cartao-nivel">
+                    <h2>Associação Prata</h2>
+                    <p>Mais oportunidades de divulgação.</p>
+                    <a href="#modal-prata" class="abrir-modal" data-modal="modal-prata">Ver benefícios</a>
+                </article>
+
+                <article class="cartao-nivel">
+                    <h2>Associação Ouro</h2>
+                    <p>Maior destaque e benefícios exclusivos.</p>
+                    <a href="#modal-ouro" class="abrir-modal" data-modal="modal-ouro">Ver benefícios</a>
+                </article>
+
+            </section>
+
+        </div>
+
+        <dialog id="modal-np">
+            <h2>Associação NP</h2>
+            <p>Isenção de taxa para organizações sem fins lucrativos e participação em atividades da Câmara.</p>
+            <button type="button" class="fechar-modal">Fechar</button>
+        </dialog>
+
+        <dialog id="modal-bronze">
+            <h2>Associação Bronze</h2>
+            <p>Participação em eventos, informações comerciais e oportunidades básicas de divulgação.</p>
+            <button type="button" class="fechar-modal">Fechar</button>
+        </dialog>
+
+        <dialog id="modal-prata">
+            <h2>Associação Prata</h2>
+            <p>Benefícios Bronze, descontos em eventos, treinamentos e maior divulgação da empresa.</p>
+            <button type="button" class="fechar-modal">Fechar</button>
+        </dialog>
+
+        <dialog id="modal-ouro">
+            <h2>Associação Ouro</h2>
+            <p>Benefícios Prata, publicidade em destaque na página inicial e acesso a eventos especiais.</p>
+            <button type="button" class="fechar-modal">Fechar</button>
+        </dialog>
+
+    </main>
+
+    <footer>
+
+        <div>
+            <p>Câmara de Comércio de San Miguel</p>
+            <p>San Miguel, El Salvador</p>
+            <p>contato@camarasanmiguel.com</p>
+            <p>+503 2665-0000</p>
+        </div>
+
+        <div>
+            <p>Katherine Montanhaur | WDD 231</p>
+
+            <p>
+                &copy;
+                <span id="ano"></span>
+                Câmara de Comércio de San Miguel
+            </p>
+
+            <p>
+                Última modificação:
+                <span id="modificado"></span>
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="scripts/navegacao.js" defer></script>
+    <script src="scripts/associacao.js" defer></script>
+</body>
+
+</html>

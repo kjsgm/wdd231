@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Obrigado | Câmara de Comércio de San Miguel</title>
+
+    <meta name="description" content="Confirmação do pedido de associação à Câmara de Comércio de San Miguel.">
+    <meta name="author" content="Katherine Montanhaur">
+
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos/normalizar.css">
+    <link rel="stylesheet" href="estilos/telas-pequenas.css">
+    <link rel="stylesheet" href="estilos/telas-grandes.css">
+    <link rel="stylesheet" href="estilos/associacao.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="identidade">
+                <img src="imagens/logo.webp" alt="Logo da Câmara de Comércio de San Miguel">
+
+                <div>
+                    <p>Câmara de Comércio</p>
+                    <p>San Miguel, El Salvador</p>
+                </div>
+            </div>
+
+            <button id="menu" aria-label="Abrir menu">☰</button>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="diretorio.html">Diretório</a></li>
+                <li><a href="associacao.html">Associe-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Obrigado pelo seu interesse!</h1>
+
+        <p>Recebemos as informações do seu pedido de associação.</p>
+
+        <section id="resumo" aria-label="Resumo do pedido">
+            <h2>Dados enviados</h2>
+            <p><strong>Nome:</strong> <span id="nome"></span></p>
+            <p><strong>Sobrenome:</strong> <span id="sobrenome"></span></p>
+            <p><strong>E-mail:</strong> <span id="email"></span></p>
+            <p><strong>Celular:</strong> <span id="telefone"></span></p>
+            <p><strong>Empresa/organização:</strong> <span id="organizacao"></span></p>
+            <p><strong>Data e hora do envio:</strong> <span id="dataHora"></span></p>
+        </section>
+
+        <p><a href="index.html">Voltar à página inicial</a></p>
+    </main>
+
+    <footer>
+        <div>
+            <p>Câmara de Comércio de San Miguel</p>
+            <p>San Miguel, El Salvador</p>
+            <p>contato@camarasanmiguel.com</p>
+            <p>+503 2665-0000</p>
+        </div>
+
+        <div>
+            <p>Katherine Montanhaur | WDD 231</p>
+            <p>&copy; <span id="ano"></span> Câmara de Comércio de San Miguel</p>
+            <p>Última modificação: <span id="modificado"></span></p>
+        </div>
+    </footer>
+
+    <script src="scripts/navegacao.js" defer></script>
+    <script src="scripts/agradecimento.js" defer></script>
+
+</body>
+
+</html>
