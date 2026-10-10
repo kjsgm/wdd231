@@ -1,0 +1,108 @@
+.pagina-sobre {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.introducao-sobre {
+    text-align: center;
+    padding: 1rem;
+}
+
+.grade-lugares {
+    display: grid;
+    grid-template-areas:
+        "lugar1"
+        "lugar2"
+        "lugar3"
+        "lugar4"
+        "lugar5"
+        "lugar6"
+        "lugar7"
+        "lugar8";
+    gap: 1rem;
+}
+
+.cartao-lugar {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.cartao-lugar figure {
+    margin: 0;
+}
+
+.cartao-lugar img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cartao-lugar address {
+    margin: 0.5rem 0;
+}
+
+.cartao-lugar button {
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+}
+
+@media (min-width: 641px) {
+    .grade-lugares {
+        grid-template-areas:
+            "lugar1 lugar2"
+            "lugar3 lugar4"
+            "lugar5 lugar6"
+            "lugar7 lugar8";
+    }
+}
+
+@media (min-width: 1025px) {
+    .grade-lugares {
+        grid-template-areas:
+            "lugar1 lugar1 lugar2 lugar2"
+            "lugar3 lugar4 lugar5 lugar6"
+            "lugar7 lugar7 lugar8 lugar8";
+    }
+
+    .cartao-lugar img {
+        transition: transform 0.3s ease;
+    }
+
+    .cartao-lugar img:hover {
+        transform: scale(1.03);
+    }
+}
+.cartao-lugar:nth-child(1) {
+    grid-area: lugar1;
+}
+
+.cartao-lugar:nth-child(2) {
+    grid-area: lugar2;
+}
+
+.cartao-lugar:nth-child(3) {
+    grid-area: lugar3;
+}
+
+.cartao-lugar:nth-child(4) {
+    grid-area: lugar4;
+}
+
+.cartao-lugar:nth-child(5) {
+    grid-area: lugar5;
+}
+
+.cartao-lugar:nth-child(6) {
+    grid-area: lugar6;
+}
+
+.cartao-lugar:nth-child(7) {
+    grid-area: lugar7;
+}
+
+.cartao-lugar:nth-child(8) {
+    grid-area: lugar8;
+}
