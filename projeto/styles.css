@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap');
+
+:root {
+    --laranja: #D98B55;
+    --creme: #FFF5EB;
+    --marrom: #3D332D;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: var(--creme);
+    color: var(--marrom);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid var(--laranja);
+    padding: 20px 10px;
+}
+
+h1,
+h2 {
+    color: var(--marrom);
+    font-family: 'Caveat', cursive;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 1px solid var(--laranja);
+    padding-bottom: 5px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #FFFFFF;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-left: 4px solid var(--laranja);
+    border-radius: 6px;
+}
+
+.exemplo-cursivo {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+}
+
+.exemplo-fonte {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid var(--laranja);
+    padding: 15px;
+}
+
+@media (min-width: 700px) {
+    body {
+        padding: 30px;
+    }
+
+    section {
+        padding: 24px;
+    }
+}
+section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+}
