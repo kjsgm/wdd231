@@ -11,8 +11,7 @@ linksModal.forEach((link) => {
         evento.preventDefault();
 
         const modalId = link.dataset.modal;
-        const modal = document.querySelector(`#${modalId} `);
-
+        const modal = document.querySelector(`#${modalId}`);
         if (modal) {
             modal.showModal();
         }
