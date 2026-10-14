@@ -13,7 +13,8 @@ lugares.forEach((lugar, indice) => {
             <img
                 src="imagens/lugar-${indice + 1}.webp"
                 alt="${lugar.nombre}"
-                loading="lazy"
+                loading="${indice === 0 ? "eager" : "lazy"}"
+                ${indice === 0 ? 'fetchpriority="high"' : ""}
                 width="300"
                 height="200"
             >
