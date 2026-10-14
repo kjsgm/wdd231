@@ -28,7 +28,7 @@ header {
 h1,
 h2 {
     color: var(--marrom);
-    font-family: 'Caveat', cursive;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
