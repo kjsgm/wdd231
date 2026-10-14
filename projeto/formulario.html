@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Katherine Montanhaur">
+    <meta name="description" content="Envie sua sugestão de receita prática para compartilhar com outras pessoas.">
+    <meta property="og:title" content="Sugerir Receita | Receitas Práticas para o Dia a Dia">
+    <meta property="og:description" content="Compartilhe sua sugestão de receita prática.">
+    <meta property="og:type" content="website">
+    <title>Sugerir Receita | Receitas Práticas para o Dia a Dia</title>
+    <link rel="icon" href="imagens/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Receitas Práticas para o Dia a Dia</h1>
+        <nav aria-label="Navegação principal">
+            <button id="botao-menu" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+            <ul id="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="favoritos.html">Favoritos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Sugira uma receita</h2>
+        <p>Compartilhe uma receita prática com a gente!</p>
+
+        <form action="obrigado.html" method="get">
+            <label for="nome">Nome da receita:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="categoria">Categoria:</label>
+            <select id="categoria" name="categoria" required>
+                <option value="">Selecione uma categoria</option>
+                <option value="Café da manhã">Café da manhã</option>
+                <option value="Almoço e jantar">Almoço e jantar</option>
+                <option value="Lanches">Lanches</option>
+                <option value="Sobremesas">Sobremesas</option>
+                <option value="Massas">Massas</option>
+                <option value="Outras">Outras</option>
+            </select>
+
+            <label for="ingredientes">Ingredientes:</label>
+            <textarea id="ingredientes" name="ingredientes" rows="5" required></textarea>
+
+            <label for="preparo">Modo de preparo:</label>
+            <textarea id="preparo" name="preparo" rows="5" required></textarea>
+
+            <button type="submit">Enviar sugestão</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Receitas Práticas para o Dia a Dia</p>
+        <p><a href="atribuicoes.html">Atribuições</a></p>
+        <p><a href="#" id="link-video">Vídeo de demonstração</a></p>
+    </footer>
+</body>
+
+</html>

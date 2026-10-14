@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Katherine Montanhaur">
+    <meta name="description" content="Consulte suas receitas favoritas e encontre facilmente suas opções preferidas.">
+    <meta property="og:title" content="Favoritos | Receitas Práticas para o Dia a Dia">
+    <meta property="og:description" content="Suas receitas preferidas em um só lugar.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <title>Favoritos | Receitas Práticas para o Dia a Dia</title>
+    <link rel="icon" href="imagens/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Minhas Receitas Favoritas</h1>
+
+        <nav aria-label="Navegação principal">
+            <button id="botao-menu" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+            <ul id="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="favoritos.html" aria-current="page">Favoritos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Receitas guardadas com carinho</h2>
+        <p>Aqui ficam as receitas que você salvou para preparar depois.</p>
+
+        <div id="lista-favoritos" class="grade-receitas">
+            <p>Carregando seus favoritos...</p>
+        </div>
+
+        <p><a href="receitas.html">Explorar todas as receitas</a></p>
+    </main>
+
+    <footer>
+        <p>Receitas Práticas para o Dia a Dia</p>
+        <p><a href="atribuicoes.html">Atribuições</a></p>
+        <p><a href="#" id="link-video">Vídeo de demonstração</a></p>
+    </footer>
+</body>
+
+</html>

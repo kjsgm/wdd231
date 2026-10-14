@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Katherine Montanhaur">
+    <meta name="description" content="Receitas práticas e fáceis para ajudar você a preparar refeições no dia a dia.">
+    <meta property="og:title" content="Receitas Práticas para o Dia a Dia">
+    <meta property="og:description" content="Encontre receitas simples para facilitar sua rotina.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <title>Início | Receitas Práticas para o Dia a Dia</title>
+    <link rel="icon" href="imagens/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Receitas Práticas para o Dia a Dia</h1>
+        <p>Comida simples, gostosa e sem complicação!</p>
+
+        <nav aria-label="Navegação principal">
+            <button id="botao-menu" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+            <ul id="menu">
+                <li><a href="index.html" aria-current="page">Início</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="favoritos.html">Favoritos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="apresentacao">
+            <h2>Bem-vinda à sua cozinha!</h2>
+            <p>Encontre ideias práticas para preparar refeições gostosas mesmo nos dias mais corridos.</p>
+            <a class="botao" href="receitas.html">Ver receitas</a>
+        </section>
+
+        <section>
+            <h2>Receitas para facilitar sua rotina</h2>
+            <p>Descubra opções simples, confira os ingredientes e encontre inspiração para sua próxima refeição.</p>
+            <div id="receitas-destaque" class="grade-receitas">
+                <p>Carregando receitas...</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Receba ideias práticas</h2>
+            <p>Cadastre seu nome e e-mail para conhecer nossas sugestões.</p>
+
+            <form action="formulario.html" method="get">
+                <label for="nome">Seu nome:</label>
+                <input type="text" id="nome" name="nome" autocomplete="name" required>
+
+                <label for="email">Seu e-mail:</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <dialog id="modal-receita">
+            <div id="detalhes-receita"></div>
+            <button id="fechar-modal" type="button">Fechar</button>
+        </dialog>
+    </main>
+
+    <footer>
+        <p>Receitas Práticas para o Dia a Dia</p>
+        <p><a href="atribuicoes.html">Atribuições</a></p>
+        <p><a href="#" id="link-video">Vídeo de demonstração</a></p>
+    </footer>
+</body>
+
+</html>

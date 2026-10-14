@@ -1,0 +1,450 @@
+[
+    {
+        "id": 1,
+        "nome": "Papa a la Huancaína",
+        "categoria": "Peruana",
+        "tempo": "30 minutos",
+        "ingredientes": [
+            "Batatas",
+            "Queijo fresco",
+            "Leite evaporado",
+            "Biscoitos salgados",
+            "Pimenta amarela peruana",
+            "Alho",
+            "Óleo",
+            "Sal"
+        ],
+        "preparo": [
+            "Cozinhe as batatas até ficarem macias.",
+            "Bata o queijo, o leite evaporado, os biscoitos, a pimenta amarela, o alho e o óleo até formar um molho cremoso.",
+            "Ajuste o sal e a consistência do molho.",
+            "Corte as batatas em rodelas e sirva com o molho por cima."
+        ],
+        "origem": "Receita inspirada no Peru Travel",
+        "fonte": "https://www.peru.travel/gastronomia/pt/receitas/entradas/papa-a-la-huancaina.html",
+        "favorita": false
+    },
+    {
+        "id": 2,
+        "nome": "Caldo de Gallina",
+        "categoria": "Peruana",
+        "tempo": "1 hora e 30 minutos",
+        "ingredientes": [
+            "Frango ou galinha em pedaços",
+            "Água",
+            "Macarrão",
+            "Batatas",
+            "Cenoura",
+            "Alho",
+            "Cebola",
+            "Gengibre",
+            "Cebolinha",
+            "Sal"
+        ],
+        "preparo": [
+            "Coloque o frango ou a galinha em uma panela com água, alho, cebola e gengibre.",
+            "Cozinhe até a carne ficar macia.",
+            "Acrescente as batatas, a cenoura e o macarrão.",
+            "Cozinhe até os ingredientes ficarem macios e ajuste o sal.",
+            "Sirva quente com cebolinha picada."
+        ],
+        "origem": "Receita inspirada no Tottus Peru",
+        "fonte": "https://www.tottus.com.pe/tottus-pe/content/recetas/caldo-de-gallina",
+        "favorita": false
+    },
+    {
+        "id": 3,
+        "nome": "Salada de Frutas com Mousse de Maracujá",
+        "categoria": "Sobremesas",
+        "tempo": "10 minutos mais refrigeração",
+        "ingredientes": [
+            "1 caixa de uvas verdes sem sementes",
+            "6 maçãs Gala",
+            "1 ou 2 mangas Palmer maduras",
+            "1 caixa de leite condensado",
+            "1 lata de creme de leite",
+            "Aproximadamente 300 ml de suco concentrado de maracujá natural"
+        ],
+        "preparo": [
+            "Lave as uvas e as maçãs. Corte as uvas ao meio e pique as maçãs sem descascar.",
+            "Descasque as mangas e corte em pedaços.",
+            "Misture todas as frutas em uma travessa grande.",
+            "Retire a polpa dos maracujás, bata sem adicionar água e passe por uma peneira para retirar as sementes.",
+            "Misture o suco natural com o leite condensado e o creme de leite até formar uma mousse cremosa.",
+            "Despeje a mousse sobre as frutas e misture delicadamente.",
+            "Leve à geladeira por aproximadamente 30 minutos antes de servir."
+        ],
+        "origem": "Receita da família",
+        "fonte": "",
+        "favorita": false
+    },
+    {
+        "id": 4,
+        "nome": "Macarrão de Atum",
+        "categoria": "Massas",
+        "tempo": "20 minutos",
+        "ingredientes": [
+            "Aproximadamente 250 g de macarrão",
+            "1 lata de atum",
+            "1 caixa de molho de tomate pronto",
+            "Alho picado",
+            "1/2 cebola picada",
+            "Óleo",
+            "Orégano",
+            "Manjericão",
+            "Tomilho",
+            "Páprica defumada",
+            "Colorau",
+            "Coentro picado",
+            "1/2 a 1 copo americano de água",
+            "Sal",
+            "AJI-NO-MOTO®"
+        ],
+        "preparo": [
+            "Refogue o alho e a cebola no óleo até dourarem.",
+            "Acrescente o atum e os temperos. Refogue por 1 a 2 minutos.",
+            "Adicione o molho de tomate pronto, a água, o sal e o AJI-NO-MOTO®.",
+            "Deixe ferver e acrescente o coentro picado.",
+            "Cozinhe o macarrão separadamente em água fervente com um pouco de óleo, sal e AJI-NO-MOTO®.",
+            "Escorra o macarrão, misture com o molho e sirva."
+        ],
+        "origem": "Receita da família",
+        "fonte": "",
+        "favorita": false
+    },
+    {
+        "id": 5,
+        "nome": "Sushi de Preguiçoso",
+        "categoria": "Japonesa",
+        "tempo": "30 minutos",
+        "ingredientes": [
+            "200 a 300 g de salmão",
+            "1 xícara de arroz japonês",
+            "1 xícara de água para cozinhar o arroz",
+            "100 a 150 ml de vinagre de arroz",
+            "4 a 8 colheres de sopa de açúcar, conforme seu gosto",
+            "Uma pitada de sal para temperar o arroz",
+            "Aproximadamente 65 g de cream cheese",
+            "Folhas de alga nori",
+            "Gergelim opcional",
+            "Shoyu para servir",
+            "Sal",
+            "AJI-NO-MOTO®",
+            "Páprica defumada, se usar salmão cozido"
+        ],
+        "preparo": [
+            "Lave o arroz japonês várias vezes até a água sair mais clara.",
+            "Cozinhe o arroz com a água até ficar macio e a água evaporar. Deixe amornar.",
+            "Misture o vinagre de arroz, o açúcar e uma pitada de sal até dissolver o açúcar. Despeje sobre o arroz e misture delicadamente.",
+            "Para a versão cozida, tempere o salmão com sal, AJI-NO-MOTO® e páprica defumada. Doure na frigideira e desfie.",
+            "Para a versão crua, use peixe apropriado para consumo cru e mantenha-o refrigerado.",
+            "Em uma travessa, faça uma camada de arroz e distribua o salmão por cima.",
+            "Acrescente o cream cheese e, se desejar, o gergelim.",
+            "Toste rapidamente a alga nori para deixá-la crocante e corte em pedaços.",
+            "Sirva com shoyu, usando a alga para pegar porções de arroz, salmão e cream cheese."
+        ],
+        "origem": "Receita da família",
+        "fonte": "",
+        "favorita": false
+    },
+    {
+        "id": 6,
+        "nome": "Lasanha à Bolonhesa com Presunto e Queijo",
+        "categoria": "Massas",
+        "tempo": "1 hora",
+        "ingredientes": [
+            "Massa para lasanha",
+            "Carne moída",
+            "Molho de tomate",
+            "Presunto fatiado",
+            "Queijo muçarela fatiado",
+            "Cebola",
+            "Alho",
+            "Óleo",
+            "Sal",
+            "Queijo ralado opcional"
+        ],
+        "preparo": [
+            "Refogue a cebola e o alho no óleo.",
+            "Acrescente a carne moída e cozinhe até dourar.",
+            "Adicione o molho de tomate e tempere com sal. Deixe cozinhar.",
+            "Em um refratário, espalhe um pouco de molho e monte camadas de massa, molho à bolonhesa, presunto e queijo.",
+            "Repita as camadas e finalize com molho e queijo.",
+            "Asse em forno preaquecido conforme as instruções da massa, até ficar quente e gratinada."
+        ],
+        "origem": "Receita inspirada no Globo Receitas",
+        "fonte": "https://receitas.globo.com/tipos-de-prato/lasanhas/lasanha-a-bolonhesa-4d3f2316016a1c776e0133c2.ghtml",
+        "favorita": false
+    },
+    {
+        "id": 7,
+        "nome": "Guacamole com Carne Moída no Rap10",
+        "categoria": "Lanches",
+        "tempo": "30 minutos",
+        "ingredientes": [
+            "1 ou 2 abacates",
+            "1 ou 2 tomates picados",
+            "1/2 cebola picada",
+            "Suco de limão a gosto",
+            "Alho",
+            "Shoyu",
+            "Pimenta-do-reino",
+            "Cominho",
+            "Coentro ou cheiro-verde",
+            "Sal",
+            "AJI-NO-MOTO®",
+            "Carne moída na quantidade desejada",
+            "Óleo",
+            "Alho e cebola para a carne",
+            "Páprica defumada",
+            "Orégano",
+            "Alface",
+            "Rap10"
+        ],
+        "preparo": [
+            "Amasse o abacate em uma tigela.",
+            "Acrescente os tomates e a cebola picados, o suco de limão, o alho, o shoyu, a pimenta-do-reino, o cominho, o coentro ou cheiro-verde, o sal e o AJI-NO-MOTO®.",
+            "Misture, prove e ajuste os temperos. Leve à geladeira enquanto prepara a carne.",
+            "Refogue o alho e a cebola no óleo. Acrescente a carne moída, a páprica defumada, o orégano, o sal e o AJI-NO-MOTO®.",
+            "Cozinhe sem adicionar água até a carne ficar completamente cozida e levemente dourada.",
+            "Aqueça as tortilhas Rap10 na frigideira conforme as instruções da embalagem.",
+            "Monte cada porção com Rap10, uma folha de alface, carne moída e guacamole."
+        ],
+        "origem": "Receita da família",
+        "fonte": "",
+        "favorita": false
+    },
+    {
+        "id": 8,
+        "nome": "Arroz Chaufa",
+        "categoria": "Peruana",
+        "tempo": "30 minutos",
+        "ingredientes": [
+            "Arroz cozido",
+            "Frango ou outra proteína",
+            "Ovos",
+            "Cebolinha",
+            "Molho shoyu",
+            "Gengibre",
+            "Alho",
+            "Óleo",
+            "Sal e AJI-NO-MOTO® a gosto"
+        ],
+        "preparo": [
+            "Prepare o arroz e reserve. Para um melhor resultado, deixe-o esfriar antes de fritar.",
+            "Corte a proteína em pedaços pequenos e cozinhe em uma frigideira com um pouco de óleo, alho e gengibre.",
+            "Prepare os ovos mexidos e reserve.",
+            "Acrescente o arroz à frigideira e misture bem com a proteína.",
+            "Adicione o shoyu, os ovos e a cebolinha picada.",
+            "Misture e ajuste os temperos antes de servir."
+        ],
+        "origem": "Receita inspirada no Tottus Peru",
+        "fonte": "https://www.tottus.com.pe/tottus-pe/content/recetas/arroz-chaufa",
+        "favorita": false
+    },
+    {
+        "id": 9,
+        "nome": "Bolo de Cenoura",
+        "categoria": "Sobremesas",
+        "tempo": "45 minutos",
+        "ingredientes": [
+            "1 cenoura média crua",
+            "3 ovos",
+            "150 ml de óleo",
+            "1 xícara de farinha de trigo",
+            "1 xícara de açúcar",
+            "1 colher de sopa de fermento em pó",
+            "1 caixa de leite condensado para a cobertura",
+            "1 caixa de creme de leite para a cobertura",
+            "5 colheres de sopa de cacau em pó",
+            "1 colher de sopa de manteiga"
+        ],
+        "preparo": [
+            "Bata no liquidificador a cenoura, os ovos, o óleo e o açúcar até a mistura ficar homogênea.",
+            "Transfira para uma tigela e misture a farinha de trigo.",
+            "Acrescente o fermento por último e misture delicadamente.",
+            "Despeje em uma forma untada.",
+            "Asse em forno preaquecido a 180 °C por aproximadamente 35 minutos, verificando com um palito se está assado.",
+            "Para a cobertura, misture o leite condensado, o creme de leite, o cacau em pó e a manteiga em uma panela ainda fria.",
+            "Leve ao fogo, mexendo até engrossar, mas mantendo uma consistência cremosa para espalhar sobre o bolo."
+        ],
+        "origem": "Receita da família",
+        "fonte": "",
+        "favorita": false
+    },
+    {
+        "id": 10,
+        "nome": "Sobremesa de Morango Cremoso",
+        "categoria": "Sobremesas",
+        "tempo": "10 minutos mais refrigeração",
+        "ingredientes": [
+            "2 caixinhas de morangos",
+            "1 caixinha de leite condensado",
+            "1 caixinha de creme de leite"
+        ],
+        "preparo": [
+            "Lave os morangos, retire as folhas e a parte verde e corte-os em pedaços pequenos.",
+            "Coloque os morangos em uma travessa e amasse levemente com um garfo ou amassador de batatas para soltarem um pouco do suco. Não use o liquidificador.",
+            "Acrescente o leite condensado e o creme de leite.",
+            "Misture até ficar homogêneo e cremoso.",
+            "Leve à geladeira por até 15 minutos antes de servir. Se os morangos e o creme de leite já estiverem gelados, pode servir logo após misturar."
+        ],
+        "origem": "Receita da família",
+        "fonte": "",
+        "favorita": false
+    },
+    {
+        "id": 11,
+        "nome": "Frango Frito Crocante da Mamãe",
+        "categoria": "Carnes",
+        "tempo": "20 minutos mais fritura",
+        "ingredientes": [
+            "Frango da sua preferência, como coxinha da asa, tulipa, coxa, sobrecoxa ou peito",
+            "1 colher de chá de sal",
+            "1/2 colher de chá de AJI-NO-MOTO®",
+            "1 colher de sopa de orégano",
+            "1/2 colher de chá de pimenta-do-reino",
+            "1/2 colher de chá de cominho",
+            "Páprica defumada a gosto",
+            "1 ovo",
+            "Suco de 2 limões",
+            "3 colheres de sopa de amido de milho",
+            "3 a 4 colheres de sopa de farinha de trigo",
+            "Óleo suficiente para fritar"
+        ],
+        "preparo": [
+            "Coloque os pedaços de frango em uma travessa.",
+            "Acrescente o sal, o AJI-NO-MOTO®, o orégano, a pimenta-do-reino, o cominho e a páprica defumada.",
+            "Adicione o ovo e o suco dos limões.",
+            "Acrescente o amido de milho e a farinha de trigo. Misture até envolver bem todos os pedaços.",
+            "Deixe descansar por 5 a 10 minutos.",
+            "Aqueça o óleo em uma panela funda e frite os pedaços aos poucos até ficarem dourados e completamente cozidos por dentro.",
+            "Retire e deixe escorrer o excesso de óleo antes de servir."
+        ],
+        "origem": "Receita da família",
+        "fonte": "",
+        "favorita": false
+    },
+    {
+        "id": 12,
+        "nome": "Molho Branco Cremoso da Mamãe",
+        "categoria": "Molhos",
+        "tempo": "10 minutos",
+        "ingredientes": [
+            "1 caixinha de creme de leite",
+            "1/2 dente de alho sem o miolo",
+            "3 colheres de sopa de óleo",
+            "Aproximadamente 50 g de coentro",
+            "Suco de 2 limões",
+            "Sal a gosto",
+            "AJI-NO-MOTO® a gosto",
+            "Páprica defumada a gosto",
+            "Pimenta-do-reino a gosto",
+            "Cominho a gosto"
+        ],
+        "preparo": [
+            "Coloque no liquidificador o creme de leite, o alho sem o miolo, o óleo, o coentro, o sal, o AJI-NO-MOTO®, a páprica defumada, a pimenta-do-reino e o cominho.",
+            "Bata bem até que todos os ingredientes estejam triturados.",
+            "Transfira o molho para uma tigela e acrescente o suco dos limões.",
+            "Misture e prove. Ajuste o sal, o AJI-NO-MOTO® e os demais temperos conforme seu gosto.",
+            "Mantenha refrigerado até a hora de servir."
+        ],
+        "origem": "Receita da família",
+        "fonte": "",
+        "favorita": false
+    },
+    {
+        "id": 13,
+        "nome": "Strogonofe da Mamãe",
+        "categoria": "Carnes",
+        "tempo": "30 minutos",
+        "ingredientes": [
+            "Frango em cubos ou carne moída, na quantidade desejada",
+            "2 dentes de alho",
+            "1/2 cebola",
+            "Sal a gosto",
+            "AJI-NO-MOTO® a gosto",
+            "Pimenta-do-reino a gosto",
+            "Orégano a gosto",
+            "Tomilho a gosto",
+            "Alecrim a gosto",
+            "Páprica defumada a gosto",
+            "1 sachê de extrato de tomate",
+            "1 caixinha de creme de leite",
+            "1/2 copinho de requeijão",
+            "Aproximadamente 25 g de queijo ralado"
+        ],
+        "preparo": [
+            "Refogue o alho e a cebola em uma panela.",
+            "Acrescente o frango ou a carne moída e tempere com sal, AJI-NO-MOTO®, pimenta-do-reino, orégano, tomilho e alecrim.",
+            "Misture e cozinhe até a proteína começar a dourar.",
+            "Adicione o extrato de tomate e a páprica defumada. Misture e deixe cozinhar até a proteína estar completamente cozida e o molho ferver.",
+            "Acrescente o creme de leite, o requeijão e o queijo ralado.",
+            "Misture e aqueça até começar a ferver suavemente.",
+            "Sirva com arroz branco ou macarrão cozido."
+        ],
+        "origem": "Receita da família",
+        "fonte": "",
+        "favorita": false
+    },
+    {
+        "id": 14,
+        "nome": "Filé de Frango ao Molho de Mostarda",
+        "categoria": "Carnes",
+        "tempo": "20 minutos",
+        "ingredientes": [
+            "Filés de peito de frango na quantidade desejada",
+            "Manteiga ou margarina para fritar",
+            "Orégano a gosto",
+            "Sal a gosto",
+            "AJI-NO-MOTO® a gosto",
+            "1/2 cebola picada",
+            "1/2 xícara de água filtrada",
+            "1 copinho de requeijão",
+            "3 colheres de sopa de queijo ralado",
+            "1 caixinha de creme de leite",
+            "1 colher de sopa de mostarda"
+        ],
+        "preparo": [
+            "Tempere os filés com sal, AJI-NO-MOTO® e um pouco de orégano.",
+            "Aqueça manteiga ou margarina em uma frigideira e frite os filés até dourarem e ficarem completamente cozidos. Retire e reserve.",
+            "Na mesma frigideira, refogue a cebola nos resíduos do frango.",
+            "Acrescente a água filtrada e misture, soltando os pedacinhos dourados do fundo da frigideira.",
+            "Adicione o requeijão, o queijo ralado, o creme de leite e a mostarda.",
+            "Ajuste os temperos e aqueça até o molho começar a ferver suavemente e engrossar.",
+            "Despeje o molho sobre os filés reservados e sirva com arroz branco ou macarrão alho e óleo."
+        ],
+        "origem": "Receita da família",
+        "fonte": "",
+        "favorita": false
+    },
+    {
+        "id": 15,
+        "nome": "Sanduba da Mamãe",
+        "categoria": "Lanches",
+        "tempo": "8 minutos",
+        "ingredientes": [
+            "2 ovos",
+            "2 fatias de pão de forma",
+            "1 fatia de presunto",
+            "1 fatia de queijo muçarela ou outro queijo de sua preferência",
+            "1 colher de sopa de requeijão",
+            "Um fio de azeite ou óleo",
+            "Sal a gosto",
+            "AJI-NO-MOTO® a gosto"
+        ],
+        "preparo": [
+            "Bata os ovos em uma tigela com sal e AJI-NO-MOTO®.",
+            "Aqueça uma frigideira com um fio de azeite ou óleo e despeje os ovos batidos.",
+            "Enquanto o ovo ainda estiver úmido, passe as duas fatias de pão pela mistura, virando-as para que o ovo cubra os dois lados.",
+            "Deixe as fatias lado a lado na frigideira, junto ao omelete, para que cozinhem com ele.",
+            "Vire cuidadosamente para dourar o outro lado e cozinhar bem o pão com o omelete.",
+            "Coloque o presunto, o queijo e o requeijão sobre uma das partes.",
+            "Dobre o omelete com os pães, formando um sanduíche recheado.",
+            "Deixe mais um pouco na frigideira até o queijo começar a derreter. Sirva quente."
+        ],
+        "origem": "Receita da família",
+        "fonte": "",
+        "favorita": false
+    }
+]
