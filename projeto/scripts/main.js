@@ -118,7 +118,6 @@ async function mostrarReceitas() {
             cartao.innerHTML = `
     
                 <h2>${receita.nome}</h2>
-                <p>${receita.descricao || ""}</p>
                 <p><strong>Categoria:</strong> ${receita.categoria}</p>
                 <p><strong>Tempo:</strong> ${receita.tempo}</p>
                 <button type="button" class="botao-detalhes">Ver receita</button>
@@ -140,7 +139,6 @@ async function mostrarReceitas() {
 
                 detalhes.innerHTML = `
     <h2>${receita.nome}</h2>
-                    <p>${receita.descricao || ""}</p>
                     <h3>Ingredientes</h3>
                     <ul>
                         ${receita.ingredientes.map((ingrediente) =>
