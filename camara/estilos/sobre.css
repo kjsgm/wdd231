@@ -109,3 +109,18 @@
 .cartao-lugar:nth-child(8) {
     grid-area: lugar8;
 }
+.lugares {
+    min-height: 1000px;
+}
+
+@media (min-width: 641px) {
+    .lugares {
+        min-height: 700px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .lugares {
+        min-height: 600px;
+    }
+}
